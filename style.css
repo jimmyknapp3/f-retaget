@@ -59,7 +59,7 @@ site-head a:hover {
     font-size: 4rem;
   }
   
-.hero-image {
-    max-height: 60vh;
-    object-position: center;
-  }
+.images {
+display: flex;
+justify-content: space-between;
+}
