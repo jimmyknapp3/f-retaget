@@ -1,10 +1,17 @@
+@font-face {
+  font-family: 'Mitttypsnitt';
+  src: url('SoulsideBetrayed-3lazX.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html, body {
     margin: 0;
 }
 
 body {
-    font-family: sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Mitttypsnitt', sans-serif;
+    background-color: #e9190f;
 }
 
 
@@ -63,3 +70,4 @@ site-head a:hover {
 display: flex;
 justify-content: space-between;
 }
+

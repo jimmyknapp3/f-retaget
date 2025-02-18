@@ -1,0 +1,49 @@
+:root {
+    --color-dark: black;
+    --color-light: white;
+    --color-primary: red;
+    --color-secondary: green;
+    
+    --font-heading: serif;
+    --font-body: sans-serif;
+    
+    --font-body-size: 1.2rem;
+  }
+  
+  body {
+    font-family: var(--font-body);
+    font-size: var(--font-body-size);
+  }
+  
+  .container {
+    width: 80ch;
+    margin-inline: auto;
+  }
+  .region {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .color-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    list-style: none;
+    
+    li {
+      aspect-ratio: 1;
+      width: 10rem;
+      display: grid;
+      place-items:center;
+      border: 1px solid var(--color-dark);
+    }
+  }
+  
+  .primary {
+    background-color: var(--color-primary);
+  }
+  
+  .light-primary {
+    color: var(--color-light);
+    background-color: var(--color-primary);
+  }
